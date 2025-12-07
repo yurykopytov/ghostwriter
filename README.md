@@ -1,6 +1,6 @@
 # AI Ghostwriter Agent
 
-> Transform ideas into publication-ready journalistic articles using AI
+> Turn ideas into articles, feel how good it is to be able to actually write something.
 
 An AI-powered ghostwriting application that generates high-quality, well-researched journalistic articles from simple topic ideas. Built with OpenAI's GPT models and featuring automatic Notion integration for content management.
 
