@@ -1,7 +1,5 @@
-# Environment variables
-.env
-
-# Python
+# Backend Python files (keep local, not for GitHub Pages)
+*.py
 __pycache__/
 *.py[cod]
 *$py.class
@@ -10,6 +8,29 @@ __pycache__/
 venv/
 env/
 ENV/
+
+# Environment variables
+.env
+.env.*
+
+# AI/Content files (keep local)
+system_prompt.md
+schema.md
+idea.txt
+Generated_Article.md
+comments_or_notes.md
+
+# Example articles (keep local)
+examples/
+
+# Dependencies (keep local)
+requirements.txt
+
+# Development files (keep local)
+CLAUDE.md
+
+# Notion credentials
+notion_credentials.json
 
 # IDE
 .vscode/
@@ -22,5 +43,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Notion credentials (if any)
-notion_credentials.json
+# ONLY THESE FILES SHOULD BE PUBLIC (for GitHub Pages):
+# - README.md
+# - index.html (from web/)
+# - styles.css (from web/)
+# - app.js (from web/)
+# - config.js (from web/)
